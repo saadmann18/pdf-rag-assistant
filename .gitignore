@@ -1,0 +1,27 @@
+# Virtual Environment
+venv/
+venv_new/
+.venv/
+
+# Environment Variables
+.env
+
+# Database/Vector store
+chroma_db/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Streamlit
+.streamlit/
+
+# Documents
+*.pdf
+
+# Logs
+*.txt
+*.log
+!requirements.txt
+!README.md
