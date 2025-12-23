@@ -67,11 +67,12 @@ def create_rag_chain(_retriever):
         )
         
         system_prompt = (
-            "You are a helpful assistant answering questions about the SML script PDF. "
+            "You are a helpful assistant answering questions about the provided document. "
             "Use only the provided context to answer. If the answer isn't in the context, "
             "say 'I don't have enough information to answer that question based on the document.'"
             "\n\nContext:\n{context}"
         )
+
         
         prompt = ChatPromptTemplate.from_messages([
             ("system", system_prompt),
