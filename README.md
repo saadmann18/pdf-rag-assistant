@@ -65,7 +65,7 @@ This will create a `chroma_db` folder containing the indexed chunks.
 ### 2. Run the Assistant
 Start the Streamlit application:
 ```bash
-streamlit run app.py
+python -m streamlit run app.py
 ```
 
 ---
